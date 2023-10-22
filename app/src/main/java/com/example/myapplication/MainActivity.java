@@ -277,7 +277,7 @@ public class MainActivity extends AppCompatActivity {
         int num8 = 0;
         if (!et2.getText().toString().equals("")){
             num8 = Integer.parseInt(et2.getText().toString());
-            row_value = num8* 20000;
+            row_value = num8* 2000;
             rs2000.setText(df.format(row_value));
             fluctuateCash.add(row_value);
         }
