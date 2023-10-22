@@ -270,7 +270,7 @@ public class MainActivity extends AppCompatActivity {
         int num7 = 0;
         if (!et5.getText().toString().equals("")){
             num7 = Integer.parseInt(et5.getText().toString());
-            row_value = num7 * 50000;
+            row_value = num7 * 5000;
             rs5000.setText(df.format(row_value));
             fluctuateCash.add(row_value);
         }
